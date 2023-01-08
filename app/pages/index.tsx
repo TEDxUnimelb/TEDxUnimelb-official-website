@@ -130,11 +130,7 @@ export default function Home() {
                   </p>
                   <div className="text-start mt-6">
                     {" "}
-                    <button
-                      type="button"
-                      className="tedx-btn"
-                      onClick="location.href='http://www.example.com'"
-                    >
+                    <button type="button" className="tedx-btn">
                       Read More
                     </button>
                   </div>
@@ -255,7 +251,6 @@ export default function Home() {
                       <button
                         type="button"
                         className="tedx-btn-white tedx-events-button"
-                        onClick="location.href='http://www.example.com'"
                       >
                         MORE events
                       </button>
@@ -290,12 +285,7 @@ export default function Home() {
                     of the year!
                   </p>
                   <div className="text-start mt-6">
-                    {" "}
-                    <button
-                      type="button"
-                      className="tedx-btn"
-                      onClick="location.href='http://www.example.com'"
-                    >
+                    <button type="button" className="tedx-btn">
                       Sign Up
                     </button>
                   </div>
@@ -530,7 +520,7 @@ export default function Home() {
                         className="form-control"
                         name="email"
                         placeholder="Your Email"
-                        required=""
+                        required
                       />
                     </div>
 
@@ -540,7 +530,7 @@ export default function Home() {
                         className="form-control"
                         name="subject"
                         placeholder="Subject"
-                        required=""
+                        required
                       />
                     </div>
 
@@ -550,7 +540,7 @@ export default function Home() {
                         name="message"
                         rows="6"
                         placeholder="Message"
-                        required=""
+                        required
                       ></textarea>
                     </div>
 

@@ -172,7 +172,7 @@ export default function Home() {
 
                           <div className="card-img-overlay tedx-events-card-background">
                             <span className="tedx-events-card-dash"></span>
-                            <div style={{ bottom: 0, position: " absolute" }}>
+                            <div style={{ bottom: 0, position: "absolute" }}>
                               <p className="tedx-events-date">
                                 04-12-2022 Friday
                               </p>
@@ -510,7 +510,7 @@ export default function Home() {
                         name="name"
                         className="form-control"
                         placeholder="Your Name"
-                        required=""
+                        required
                       />
                     </div>
 
@@ -538,7 +538,7 @@ export default function Home() {
                       <textarea
                         className="form-control"
                         name="message"
-                        rows="6"
+                        rows={6}
                         placeholder="Message"
                         required
                       ></textarea>
